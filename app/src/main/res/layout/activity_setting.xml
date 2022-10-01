@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_settings"
+    >
+
+    <ImageButton
+        android:id="@+id/back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_back_to_main"
+        android:backgroundTint="@color/background_settings"
+        android:paddingTop="22dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/setting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="48dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="40dp"
+        android:text="@string/settings"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Switch
+            android:id="@+id/switch_to_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/setting_left_padding"
+            android:paddingTop="@dimen/bottom_and_top"
+            android:paddingBottom="@dimen/bottom_and_top"
+            android:text="@string/theme_switch"
+            android:textAllCaps="false"
+            android:textSize="@dimen/size_setting"
+        />
+
+        <Button
+            android:id="@+id/share_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background_settings"
+            android:gravity="start"
+            android:paddingLeft="@dimen/setting_left_padding"
+            android:paddingTop="@dimen/bottom_and_top"
+            android:paddingBottom="@dimen/bottom_and_top"
+            android:stateListAnimator="@null"
+            android:text="@string/share_app"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/size_setting"
+            app:icon="@drawable/ic_share"
+            app:iconGravity="end"
+            app:iconTint="@color/setting_icons"
+            app:rippleColor="@color/background_settings" />
+
+        <Button
+            android:id="@+id/chat_to_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background_settings"
+            android:gravity="start"
+            android:paddingLeft="@dimen/setting_left_padding"
+            android:paddingTop="@dimen/bottom_and_top"
+            android:paddingBottom="@dimen/bottom_and_top"
+            android:stateListAnimator="@null"
+            android:text="@string/support"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/size_setting"
+            app:icon="@drawable/ic_support"
+            app:iconGravity="end"
+            app:iconTint="@color/setting_icons"
+            app:rippleColor="@color/background_settings" />
+
+        <Button
+            android:id="@+id/agreement_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background_settings"
+            android:gravity="start"
+            android:paddingLeft="@dimen/setting_left_padding"
+            android:paddingTop="@dimen/bottom_and_top"
+            android:paddingBottom="@dimen/bottom_and_top"
+            android:stateListAnimator="@null"
+            android:text="@string/agreement_users"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/size_setting"
+            app:icon="@drawable/ic_agreement_users"
+            app:iconGravity="end"
+            app:iconTint="@color/setting_icons"
+            app:rippleColor="@color/background_settings" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

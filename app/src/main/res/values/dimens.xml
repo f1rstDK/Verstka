@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="margin_left_title">16dp</dimen>
+    <dimen name="margin_right">15dp</dimen>
+    <dimen name="margin_left_others">17dp</dimen>
+    <dimen name="button_width">328px</dimen>
+    <dimen name="button_height">220px</dimen>
+    <dimen name="between_buttons">16px</dimen>
+    <dimen name="cornerRadius">22dp</dimen>
+
+    <dimen name="setting_left_padding">16dp</dimen>
+    <dimen name="bottom_and_top">21dp</dimen>
+
+    <dimen name="size_setting">16sp</dimen>
+</resources>
